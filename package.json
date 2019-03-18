@@ -1,0 +1,12 @@
+{
+  "name": "nano-node-wsclient",
+  "version": "1.0.0",
+  "description": "Sample Websocket client for the Nano node",
+  "main": "index.js",
+  "author": "cryptocode",
+  "license": "MIT",
+  "dependencies": {
+    "reconnecting-websocket": "^4.1.10",
+    "ws": "^6.2.0"
+  }
+}
