@@ -15,7 +15,8 @@ const ws = new ReconnectingWebSocket('ws://[::1]:7078', [], {
 ws.onopen = () => {
 	const confirmation_subscription = {
 		"action": "subscribe", 
-		"topic": "confirmation"
+		"topic": "confirmation",
+		"ack": true,
 	}
 	ws.send(JSON.stringify(confirmation_subscription));
 
